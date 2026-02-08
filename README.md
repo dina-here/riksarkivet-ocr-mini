@@ -1,3 +1,4 @@
+```text
 # OCR Experiment – Arbetsprov
 
 Detta repository innehåller ett arbetsprov där OCR-tekniker har testats på
@@ -9,7 +10,6 @@ samt att tydligt redovisa både fungerande och icke-fungerande resultat.
 ---
 ## Dataset & struktur
 
-```text
 data/
 ├─ raw/
 │  ├─ printed_forms/         # Modern tryckt text (böcker, artiklar, formulär)
