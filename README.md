@@ -7,24 +7,22 @@ Syftet har varit att undersöka vad som fungerar i praktiken för text­extrakti
 samt att tydligt redovisa både fungerande och icke-fungerande resultat.
 
 ---
-
 ## Dataset & struktur
 
+```text
 data/
-├── raw/
-│ ├── printed_forms/ # Modern tryckt text (böcker, artiklar, formulär)
-│ ├── handwritten_notes/ # Moderna handskrivna anteckningar (rutpapper)
-│ └── handwritten_letters/ # Historiska handskrivna brev
-│
-├── processed/
-│ ├── printed_forms/
-│ ├── handwritten_notes/
-│ └── handwritten_letters/
-│
-results/
-├── printed_forms/
-├── handwritten_notes/
-└── handwritten_letters/
+├─ raw/
+│  ├─ printed_forms/         # Modern tryckt text (böcker, artiklar, formulär)
+│  ├─ handwritten_notes/     # Moderna handskrivna anteckningar (rutpapper)
+│  └─ handwritten_letters/   # Historiska handskrivna brev
+├─ processed/
+│  ├─ printed_forms/
+│  ├─ handwritten_notes/
+│  └─ handwritten_letters/
+└─ results/
+   ├─ printed_forms/
+   ├─ handwritten_notes/
+   └─ handwritten_letters/
 
 ## Metoder som testats
 
