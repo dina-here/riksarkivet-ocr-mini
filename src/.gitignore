@@ -1,0 +1,12 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Data & results
+data/
+results/
+
+# OS
+.DS_Store
+Thumbs.db
