@@ -1,4 +1,4 @@
-```text
+
 # OCR Experiment – Arbetsprov
 
 Detta repository innehåller ett arbetsprov där OCR-tekniker har testats på
@@ -10,6 +10,7 @@ samt att tydligt redovisa både fungerande och icke-fungerande resultat.
 ---
 ## Dataset & struktur
 
+```text
 data/
 ├─ raw/
 │  ├─ printed_forms/         # Modern tryckt text (böcker, artiklar, formulär)
@@ -23,6 +24,8 @@ data/
    ├─ printed_forms/
    ├─ handwritten_notes/
    └─ handwritten_letters/
+
+```
 
 ## Metoder som testats
 
@@ -104,3 +107,4 @@ Projektet kördes på Windows.
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
+```
